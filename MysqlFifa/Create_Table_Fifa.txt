@@ -1,0 +1,10 @@
+CREATE DATABASE wlfifa;
+USE wlfifa;
+
+CREATE TABLE wl (
+	id_wl INTEGER PRIMARY KEY AUTO_INCREMENT,
+    vitorias INTEGER NOT NULL,
+    derrotas INTEGER NOT NULL,
+    penaltis INTEGER NOT NULL
+    );
+   
